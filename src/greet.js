@@ -1,0 +1,1 @@
+$('.greet').html('Hello webpack!');
