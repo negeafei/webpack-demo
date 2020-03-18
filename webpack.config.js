@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'production',
+  // mode: 'production',
   // entry指定启动打包时的入口文件，由此文件开始，逐步解析，并递归式地构建所有文件之间的依赖图
   entry: './src/index.js',
   // output指定webpack编译完成后如何向硬盘输出编译后的文件。比如在哪里输出、如何命名等
